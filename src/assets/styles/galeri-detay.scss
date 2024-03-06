@@ -1,0 +1,30 @@
+.galeri-detay {
+    margin-top: 40px 0;
+
+    img {
+        width: 80;
+        height: 400px;
+        object-fit: cover;
+
+    }
+
+    .buton {
+        background-color: darkgoldenrod;
+        width: 250px;
+        margin: auto;
+        padding: 20px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: .6s;
+
+        &:hover {
+            background-color: orangered;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+    }
+}
